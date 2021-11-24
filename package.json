@@ -1,0 +1,23 @@
+{
+  "name": "mapkl",
+  "version": "0.0.1",
+  "author": "warrenwyf@gmail.com",
+  "main": "mapkl.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/eslint-parser": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@rollup/plugin-babel": "^5.2.2",
+    "eslint": "^7.28.0",
+    "jest": "^26.1.0",
+    "rollup": "^2.34.1",
+    "rollup-plugin-copy": "^3.3.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
